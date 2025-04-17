@@ -1,0 +1,19 @@
+name: bramChat
+main: bramcraft.net.bramChat.BramChat
+version: 1.0
+author: Bram Wijnen
+api-version: 1.21
+depend: [PlaceholderAPI]
+
+commands:
+  bramchat:
+    description: Main command for bramChat
+    usage: /bramchat reload
+    permission: bramchat.reload
+    permission-message: §cYou don’t have permission to use this command.
+
+permissions:
+  bramchat.reload:
+    default: op
+  bramchat.bypass.freeze:
+    default: op
